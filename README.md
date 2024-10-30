@@ -78,7 +78,7 @@ Ensure PostgreSQL is running and that the backend is connected to the correct da
 
 For time being, FE is storing auth token in local storage. Ideally it should be stored in http only cookie. This makes the application more secure(because they’re not accessible via JavaScript) + localStorage is only accessible in the browser, not on the server. Therefore, server side calls are not possible. Http only cookie is accessible in both server and client.
 
-Have pushed env var for testing. Would remove it before deploying it to prod
+Have pushed .env for testing for now. Would remove it before deploying it to prod
 
 6. Troubleshooting
 
