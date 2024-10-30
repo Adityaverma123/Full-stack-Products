@@ -21,7 +21,8 @@ Make sure you have the following installed on your machine:
 
 Clone this repository to your local machine:
 
-git clone https://github.com/YourUsername/YourRepository.git
+git clone https://github.com/Adityaverma123/Full-stack-Products.git
+
 cd astra-invest
 
 2. Install Dependencies
