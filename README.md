@@ -87,3 +87,8 @@ If you encounter issues, ensure that all dependencies are installed correctly an
 Check the console logs for any errors that might indicate what went wrong.
 
 
+6. Admin access
+
+Admin access is required to delete and add the product. You would need to manually update the role in user table to *admin* and then relogin. You'd be able to perform admin operations after that
+
+
