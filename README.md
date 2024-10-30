@@ -39,7 +39,7 @@ npm install
 
 3. Running the Applications
 
-Backend
+Backend: 
 In the backend terminal, There's a one time script to setup the schema:
 
 cd backend
@@ -50,7 +50,7 @@ Once done, run the application
 
 npm run dev
 
-Frontend
+Frontend: 
 In the frontend terminal, start the development server:
 cd frontend
 npm start
