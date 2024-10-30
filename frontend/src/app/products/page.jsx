@@ -3,7 +3,6 @@ import React, { useEffect, useState } from 'react';
 import { getUserInfo } from '../services/backend/userService';
 import { createProduct, deleteProduct, getProducts } from '../services/backend/productsService';
 import { useRouter } from 'next/navigation';
-import handleApiError from '../handleApiError';
 
 const ProductsPage = () => {
     const [products, setProducts] = useState([]);
@@ -26,7 +25,6 @@ const ProductsPage = () => {
                 const products = await getProducts();
                 setProducts(products);
             } catch (err) {
-                // handleApiError(err)
                 setError('Failed to fetch data');
                 console.error(err);
             } finally {

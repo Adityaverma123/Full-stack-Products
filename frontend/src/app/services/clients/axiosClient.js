@@ -1,7 +1,6 @@
 import { PUBLIC_API_URL } from '@/app/constants';
 import axios from 'axios';
 
-// Create an instance of axios
 const axiosClient = axios.create({
     baseURL: PUBLIC_API_URL, 
 })
@@ -21,7 +20,7 @@ axiosClient.interceptors.request.use(
 
 axiosClient.interceptors.response.use(
     (response) => {
-        return response; // Return response if everything is fine
+        return response; 
     },
     (error) => {
         const { response } = error;
